@@ -1,6 +1,4 @@
-
 FROM golang:alpine
-
 
 RUN apk add --update git mercurial && rm -rf /var/cache/apk/*
 
